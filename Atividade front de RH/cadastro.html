@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro RH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center">
+    <div class="card">
+        <h2>Novo Cadastro RH</h2>
+
+        <form onsubmit="mostrarMensagem()">
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Criar Senha" required>
+            <input type="password" placeholder="Confirmar Senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já tem conta? <a href="index.html">Faça Login</a></p>
+    </div>
+</div>
+
+<script>
+function mostrarMensagem() {
+    alert("Cadastro enviado!");
+}
+</script>
+
+</body>
+</html>
